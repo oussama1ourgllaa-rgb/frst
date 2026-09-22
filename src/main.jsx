@@ -11,10 +11,12 @@ import Post from './Post.jsx'
 import {Salution} from './Salution.jsx'
 import Users from './Users.jsx'
 import TodoList from './TodoList.jsx'
+import Books from './Bocs.jsx'
+import ValidationForm from './Valid_Form.jsx'
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <TodoList />
+        <ValidationForm />
     </StrictMode>
 )
 
