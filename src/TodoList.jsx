@@ -5,7 +5,8 @@ const TodoList = () => {
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/todos")
             .then(response => response.json())
-            .then(data=>{console.log(data.slice(0,10));setTodos(data.slice(0,10));});},[])
+            .then(data=>{console.log(data.slice(0,10));setTodos(data.slice(0,10));});
+        },[])
 
     const deleteTodo = (id) => {
         setTodos(todos.filter(t=>t.id !== id));
