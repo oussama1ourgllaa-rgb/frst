@@ -16,10 +16,11 @@ import Books from './Bocs.jsx'
 import ValidationForm from './Valid_Form.jsx'
 import MovieList from './MovieList.jsx'
 import Todo_List from './Todo_List.jsx'
+import GestionEqip from './GestionEqip.jsx'
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <Todo_List/>
+        <ValidationForm/>
     </StrictMode>
 )
 
