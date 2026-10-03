@@ -17,10 +17,12 @@ import ValidationForm from './Valid_Form.jsx'
 import MovieList from './MovieList.jsx'
 import Todo_List from './Todo_List.jsx'
 import GestionEqip from './GestionEqip.jsx'
+import ValidationFormV2 from './validformV2.jsx';
+import ValidationForm3 from './validt.jsx';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <ValidationForm/>
+        <ValidationForm3/>
     </StrictMode>
 )
 
